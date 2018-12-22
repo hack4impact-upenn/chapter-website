@@ -39,6 +39,17 @@ const Head = props => (
       property="og:description"
       content={props.description || defaultDescription}
     />
+    <link rel="stylesheet" type="text/css" href="/static/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossOrigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Chivo|Heebo:300"
+      rel="stylesheet"
+    />
     <meta name="twitter:site" content={props.url || defaultOGURL} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content={props.ogImage || defaultOGImage} />

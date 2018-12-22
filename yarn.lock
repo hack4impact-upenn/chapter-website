@@ -666,7 +666,7 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
-"@babel/runtime@^7.1.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.2.0.tgz#b03e42eeddf5898e00646e4c840fa07ba8dcad7f"
   integrity sha512-oouEibCbHMVdZSDlJBO6bZmID/zA/G/Qx3H1d3rSNPTD+L8UNKvCat7aKWSJ74zYbm5zWGh0GQN0hKj8zYFTCg==
@@ -4083,6 +4083,13 @@ react-popper@^0.10.4:
   dependencies:
     popper.js "^1.14.1"
     prop-types "^15.6.1"
+
+react-spring@^7.2.4:
+  version "7.2.4"
+  resolved "https://registry.yarnpkg.com/react-spring/-/react-spring-7.2.4.tgz#88d2d97f018a3684528dc0cbf7c4511aab15a407"
+  integrity sha512-+h5CXhxpoeA5phIzNFLKjWq8rfViN52SEjGpflwgbGOF7EO9mPyvCUOEx9EcNbf2vOacbwezIYaPtacnJAW6lw==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
 
 react-transition-group@^2.3.1:
   version "2.5.2"
